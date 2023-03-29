@@ -15,7 +15,7 @@ def ans():
     try:
         if common_lst[0][1] == common_lst[1][1]:
             common = common_lst[1][0]
-    except:
+    except():
         pass
     range_lst = lst[-1]-lst[0]
     print(avg)
